@@ -6,7 +6,7 @@ The Set card game is a real-time puzzle where players identify patterns among ca
 
 ## Game Description
 
-In this implementation of Set, players are presented with a grid of cards. Each card has a unique combination of symbols, shading patterns, and colors. The objective is to identify a "set" of three cards where each feature is either the same on all the cards or different on all the cards.
+Set is a compelling card game that challenges players to identify patterns among a grid of cards, each adorned with symbols, shading patterns, and colors. The deck consists of 81 unique cards, and at the start of the game, 12 cards are laid out in a grid. Players must be swift and observant, aiming to locate a "set" of three cards where each attribute—number of symbols (one, two, or three), type of symbols (oval, squiggle, or diamond), shading (solid, striped, or open), and color (red, green, or purple)—is either all the same or all different across the cards. The game progresses as players continue to identify sets, and new cards are dealt from the deck to replace them, offering a dynamic and continuously engaging experience.
 
 ## File Structure
 
@@ -24,7 +24,7 @@ The repository's structure is as follows:
 
 ## How to Play
 
-To play the game, visit [set.stevenhao.com](http://set.stevenhao.com). The website will guide you through the process of starting a new game, and you can interact with the cards directly in your browser.
+To dive into the game, navigate to [set.stevenhao.com](http://set.stevenhao.com) where you'll be greeted with the option to start a new game. No account creation is necessary—simply click to begin. The game interface presents a grid of cards, and you can select a set by clicking on three cards that meet the criteria of a set. If your selection is correct, the cards will be removed and replaced with new ones from the deck. If incorrect, the game will prompt you to try again. Keep an eye on the timer, as speed is essential! Your goal is to find as many sets as possible before the deck is depleted, with your final score reflecting the number of sets you've successfully identified.
 
 ## How to Build
 
