@@ -44,10 +44,11 @@ function rand(x) {
   return Math.floor(Math.random() * x);
 }
 
+// Fisher–Yates shuffle
 function shuffle(lst) {
-  for (var i = 0; i < lst.length; ++i) {
-    var tmp = lst[i]
-    var j = rand(i);
+  for (var i = lst.length - 1; i > 0; --i) {
+    var j = rand(i + 1);
+    var tmp = lst[i];
     lst[i] = lst[j];
     lst[j] = tmp;
   }
